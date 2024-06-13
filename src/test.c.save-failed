@@ -1,0 +1,36 @@
+#include<assert.h>
+#include<stdlib.h>
+#include<stdio.h>
+#include"test.h"
+#include"regex.h"
+void test_beg()
+{
+    char *regexp1="^N";
+    char *regexp2="^Nir";
+    FILE *ptr=fopen("rockbands.txt","r");
+    assert(matchbeg(regexp1,ptr)==1);
+    assert(matchbeg(regexp2,ptr)==1);
+    printf("test passed for beginning sequence \n");
+    fclose(ptr);
+}
+
+void test_char()
+{
+    char *regexp1="a";
+    char *regexp2="d";
+    FILE *ptr=fopen("rockbands.txt","r");
+    assert(matchchar(regexp1,ptr)==1);
+    assert(matchchar(regexp2,ptr)==1);
+    printf("test passed for matching characters \n");
+    fclose(ptr);
+}
+
+void test_digit()
+{
+    char *regexp=":d";
+    FILE *ptr=fopen("rockbands.txt","r");
+    assert(matchchar(regexp,ptr)==1);
+    assert(matchchar(regexp,ptr)==1);
+    printf("test passed for matching characters \n");
+    fclose(ptr);
+}

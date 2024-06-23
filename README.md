@@ -20,16 +20,24 @@ To compile and run the program, follow these steps:
 Once the program is running, you can enter commands in the shell prompt. Here are some examples:
 
 - For finding text with a particular sequence in the beggining
+
+<video controls src="grpbeginning-1.mp4" title="Title"></video>
 - For finding text with a particular character
+
+<video controls src="grp character-1.mp4" title="Title"></video>
 - For finding all the text present in the file
+
+<video controls src="grp all-1.mp4" title="Title"></video>
 - For finding text containing a digit
+
+<video controls src="grp digits-1.mp4" title="Title"></video>
 
 ## System requirements
 - Windows 7 or higher
 - linux
 - Gcc compiler
 
-## Roadmap
+## Roadmap 
 - Finding text patterns ending with a paticular sequence
 - Finding patterns of more than one file simultaneously
 - Case insensitive search

@@ -21,16 +21,32 @@ Once the program is running, you can enter commands in the shell prompt. Here ar
 
 - For finding text with a particular sequence in the beggining
 
-<video controls src="grpbeginning-1.mp4" title="Title"></video>
+
+https://github.com/Saptarshi2001/grp-tool/assets/77968705/c0b6f040-486a-4cf7-b743-5f38287b0fe7
+
+
+
 - For finding text with a particular character
 
-<video controls src="grp character-1.mp4" title="Title"></video>
+
+
+https://github.com/Saptarshi2001/grp-tool/assets/77968705/4e17613f-94bc-4bcd-87ce-99839e23b3bd
+
+
 - For finding all the text present in the file
 
-<video controls src="grp all-1.mp4" title="Title"></video>
+
+
+https://github.com/Saptarshi2001/grp-tool/assets/77968705/b374ceb1-147f-4c51-b7f5-638c245f8518
+
+
 - For finding text containing a digit
 
-<video controls src="grp digits-1.mp4" title="Title"></video>
+
+
+https://github.com/Saptarshi2001/grp-tool/assets/77968705/f404e601-f9a5-4498-af98-c362bece1c95
+
+
 
 ## System requirements
 - Windows 7 or higher
